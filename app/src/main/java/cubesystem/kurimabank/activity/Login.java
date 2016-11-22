@@ -76,6 +76,7 @@ public class Login extends AppCompatActivity {
         );
 
 
+
         //★検索結果の取得
         if (cur != null && cur.moveToFirst()) {
             String detailNo = cur.getString(cur.getColumnIndex("DETAILNO"));
